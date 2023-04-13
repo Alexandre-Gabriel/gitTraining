@@ -1,0 +1,5 @@
+remove a file from being tracked 
+    git update-index --skip-worktree <filename>
+
+invert what can be done by last command
+    git update-index --no-skip-worktree <filename>

@@ -1,0 +1,3 @@
+git commit 
+    --amend (change commit message)
+    --no-edit

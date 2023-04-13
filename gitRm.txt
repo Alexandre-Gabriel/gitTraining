@@ -1,0 +1,6 @@
+git rm --cached <filename> (use the file name or it will remove everything) 
+- this works for files that were committed or not
+
+git restore --staged -only works for files that existed before
+                .          (remove all staged)
+                <filename> (same thing as rm above)

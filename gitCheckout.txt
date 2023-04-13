@@ -1,0 +1,4 @@
+git checkout 
+    hash code (to change to a different commit)
+    master
+    fileName to revert it to the last committed version
