@@ -1,0 +1,14 @@
+git brasnch (same as --list)
+        --list
+        -b <branchName> (create and jump directly to the new branch)
+
+    
+git checkout branchName (to change branch)
+
+git switch branchName (change branchs)
+            - (last branch that was used)
+            -c (create new branch)
+
+git push --set-upstream origin <branchName>
+         -u             origin <branchName>
+
