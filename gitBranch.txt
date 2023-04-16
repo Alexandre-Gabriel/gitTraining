@@ -12,3 +12,9 @@ git switch branchName (change branchs)
 git push --set-upstream origin <branchName>
          -u             origin <branchName>
 
+git branch -d <branchName> (delete branch locally)
+           -D <branchName> (force delete branch locally)
+
+git push --delete origin <branchName> (delete branch remotely)
+
+git branch -m <NewBranchName> (rename a branch)

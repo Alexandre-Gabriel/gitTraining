@@ -4,3 +4,4 @@ git log
     --shortstat
     --patch -p
     -N
+    <branchName> (check log for a specific branch)
