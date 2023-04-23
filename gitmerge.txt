@@ -1,0 +1,2 @@
+git merge <whatBranchToMerge>  
+                (this will merge with the branch I'm currently on)
