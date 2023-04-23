@@ -20,3 +20,4 @@ git push --delete origin <branchName> (delete branch remotely)
 git branch -m <NewBranchName> (rename a branch)
 
 git branch --no-merged (show branches that are not merged)
+           --merged    (show branches that are merged)
