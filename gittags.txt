@@ -1,0 +1,9 @@
+lightweight 
+    git tag <tagname>  (create a tag on the current commit)
+
+annotated (it has message and author)
+    git tag -a -m "message" <tagname>
+
+git show <tagname> (get tag info, tag, diffs, message, tagger)
+ 
+git tag <tagname> <commitHash> (create a tag on a specific commit)
