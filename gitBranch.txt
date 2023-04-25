@@ -1,9 +1,9 @@
-git brasnch (same as --list)
+git branch (same as --list)
         --list
         -b <branchName> (create and jump directly to the new branch)
 
     
-git checkout branchName (to change branch)
+git checkout <branchName> (to change branch)
 
 git switch branchName (change branchs)
             - (last branch that was used)

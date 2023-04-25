@@ -1,0 +1,6 @@
+git rebase <WhereToRebase> (only rebase in private branches)
+    (get all commits to the current branch that do not exist in the current)
+
+git pull --rebase 
+    (rebase with the remote repo)
+    
