@@ -1,0 +1,3 @@
+git revert head (create a new commit reverting the head commit)
+
+git revert <commitHash> (create a new commit with all the changes until the commit before <commithash>)

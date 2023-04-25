@@ -1,3 +1,4 @@
 git commit 
     --amend (change commit message)
     --no-edit
+    -a (add and commit)

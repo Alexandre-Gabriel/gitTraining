@@ -1,1 +1,13 @@
 git reset --hard (remove everything until the last commit)
+
+git reset --hard <commitHash> 
+    (remove everything until a specific commit)
+
+git reset --hard HEAD~N
+    (remove everything from the last N commits)
+
+git reset --mixed HEAD~N 
+    (remove everything from the last N commits but maintain the changes as unstaged)
+
+git reset --soft HEAD~N
+    (remove everything from the last N commits but maintain the changes as staged)
