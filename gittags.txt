@@ -7,3 +7,15 @@ annotated (it has message and author)
 git show <tagname> (get tag info, tag, diffs, message, tagger)
  
 git tag <tagname> <commitHash> (create a tag on a specific commit)
+  
+git push origin <tagname> (push the tag to the remote repo)
+
+git push --tags (push all tags to the remote repo)
+
+git checkout <tagname> (change to the tag commit)
+
+git diff <tagname1> <tagname2> (diff between the two tags)
+
+git tag -d <tagname> (remove specific tag locally)
+
+git push --delete origin <tagname> (remove specific tag remotly)
