@@ -1,0 +1,20 @@
+git stash   (stash any modification not staged or cached)
+            (only tracked files)
+
+git stash list (list all the stash changes)
+
+git stash apply <stash> 
+    (apply but do not delete a specific stash)
+
+git stash drop <stash> (delete a stash)
+
+git stash push -m <message> (stash the changes with a message)
+
+git stash show <stash> (show the changes in a specific stash)
+
+git stash pop <stash> (apply and delete a specific stash)
+
+git stash branch <branchname> [<stash>] 
+    (Creates and checks out a new branch named <branchname> starting from the commit at which the <stash> was created, and applies the changes recorded in <stash> to the new working tree and index.)
+
+git stash clear (clear all stash entries)
