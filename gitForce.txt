@@ -1,0 +1,6 @@
+git push -f(--force)
+    (force the local repo to the remote)
+
+git push --force-with-lease
+    (only push if nothing is lost in the process)
+
