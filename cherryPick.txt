@@ -1,0 +1,2 @@
+bring a specific commit from another branch to the current
+git cherry-pick <commitHash>
