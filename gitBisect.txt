@@ -1,0 +1,11 @@
+Used to find problems 
+
+git bisect start
+
+git bisect good <commitHash> (good commit)
+
+git bisect bad <commitHash> (bad commit)
+
+git bisect good (it is still good)
+
+git bisect bad (is already bad)
